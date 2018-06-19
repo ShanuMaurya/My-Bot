@@ -33,7 +33,6 @@ bot.on("message", function(message) {
        case "8ball":
                   if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random()  *  fortunes.length)]);
                   else message.channel.sendMessage("I can't read that question sorry");
-                  else message.channel.sendMessage("Try something else please");
                   break; 
                
        default:
