@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
-const config = require("./config.json");
-const prefix = require("./config.json");
+const token = "NDU1MjQzMzI4NzM3Mzc4MzE0.DgeTKw.dTwzb9rTcJZCIUKsUrUpyvf3JjI";
+const prefix = "!";
 
 var fortunes = [
              "idk",
@@ -19,7 +19,7 @@ bot.on("Ready", function() {
 bot.on("message", function(message) {
 	if (message.author.equals(bot.user)) return; 
 	
-	If (!message.content.startswith(prefix)) return; 
+	If (!message.content.startsWith(prefix)) return; 
 	
 	var args = message.content.substring(prefix.length).split("  ");
    
@@ -44,5 +44,5 @@ bot.on("message", function(message) {
             });
             
             
-         bot.login(config.token);
+         bot.login(token);
            
