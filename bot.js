@@ -31,7 +31,7 @@ bot.on("message", function(message) {
                   message. channel.sendMessage("I'm a special bot made by WolfBoy(melo)");
                   break;
        case "8ball":
-                  if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random()  *  fortunes.length)]);
+                  if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
                   else message.channel.sendMessage("I can't read that question sorry");
                   break; 
                
