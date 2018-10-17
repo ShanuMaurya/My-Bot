@@ -1,5 +1,5 @@
 exports.TOKEN = '';
 
-exports.PREFIX = 'm!';
+exports.PREFIX = 'ku!';
 
 exports.GOOGLE_API_KEY = '';
